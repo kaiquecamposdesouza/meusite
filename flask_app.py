@@ -9,6 +9,6 @@ app = Flask(__name__)
 def hello_world():
     return '<h1>Meu primeiro site no Flask localmente :)<h1>'
 
-@app.route('/inicio')
+@app.route('/home')
 def inicio():
     return render_template('index.html')
